@@ -516,9 +516,6 @@ button:focus {
   margin-bottom: 0;
   padding-left: 0;
 }
-.img-a {
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .img-clients {
   display: flex;
@@ -529,6 +526,7 @@ button:focus {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
