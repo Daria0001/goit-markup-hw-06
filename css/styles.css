@@ -526,9 +526,9 @@ button:focus {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #afb1b8;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .img-a:hover {
@@ -537,6 +537,7 @@ button:focus {
 
 .img-clients:hover,
 .img-clients:focus {
+  border: 1px solid #2196f3;
   fill: #2196f3;
 }
 
